@@ -1,0 +1,82 @@
+body{
+    min-height: 100vh;
+    background: #f9f3e9;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.equipos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+h1 {
+    color: #d8630f;
+    text-align: center;
+}
+.vs{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background-color: #e39157; 
+}
+
+button {
+    background: #d8630f;
+    color: white;
+    align-self: center;
+}
+
+#partido-info {
+    display: none;
+    text-align: center;
+}
+
+#partido-day {
+    font-size: large;
+}
+
+.tarjeta {
+    text-align: center;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border: 2px solid #e39157;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 30px;
+    position: relative;
+}
+
+.cuartos{
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+#partido-quarters{
+    display: flex; 
+    flex-wrap: wrap;
+    border:2px solid #e39157 ;
+    align-items: center;
+}
+.quarter-container {
+    padding: 15px;
+    border:2px dotted #e39157 ;
+   margin: 10px;
+   
+}
+
+
+.generador{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

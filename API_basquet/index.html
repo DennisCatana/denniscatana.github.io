@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basquet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="Pictures/fondo.png" />
+
+  
+</head>
+<body>
+  <h1>Partidos de Baloncesto</h1>
+
+  <div class="content" >
+
+    <div id="partido-info">
+
+        <p id="partido-day" ></p>
+        <p id="partido-season" ></p>
+
+        <div class="equipos">
+            <div class="tarjeta">   
+                <p id="partido-away-team"></p>
+                <p id="partido-away-score"></p>
+            </div>
+
+            <div class="tarjeta">
+                <p id="partido-home-team"></p>
+                <p id="partido-home-score"></p>
+            </div>
+        </div>
+        
+        
+        
+        <div>
+            <div id="partido-quarters" class="quarter-container"></div>
+        </div>
+        
+    </div>
+    
+  </div>
+  <div class="generador">
+    <button onclick="btnGenerarPartido()">Visualizar Partido</button>
+  </div>
+  
+  
+  
+
+  <script src="app.js"></script>
+</body>
+</html>

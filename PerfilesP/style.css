@@ -1,0 +1,81 @@
+body {
+    background-color: #f9f3e9;
+    color: white;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.profile {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+.profile:hover {
+    transform: scale(1.05);
+}
+.profile img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    
+    
+}
+.profile h4 {
+    margin: 10px;
+}
+.profile p {
+    margin: 0 10px;
+    font-size: 14px;
+    
+}
+.Titulopersonal{
+    justify-content: center;
+    text-justify: auto;
+    text-align: center;
+    color: #d8630f;
+}
+button{
+    background-color: orange;
+    color: white; /* Letras en blanco */
+    /* Opcional: Añade más estilos según tus preferencias */
+    padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Añade bordes redondeados */
+
+}
+.perfil1{
+    width: 110px;
+    height: 110px;
+    display: flexbox;
+    object-fit: contain;
+    width: 300px; /* Ancho deseado para el contenedor */
+    height: 200px; /* Alto deseado para el contenedor */
+    border: 1px solid #ccc;
+    overflow: hidden; 
+    flex-wrap: wrap;
+
+}
+
+.imgMelany{
+    background-image: url("https://drive.google.com/file/d/1XLUGJhYsidx9-1oUm9k-jEXU1YCeHjdp/view?usp=drive_link");
+}

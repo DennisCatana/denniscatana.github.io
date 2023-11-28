@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f3e9;
+}
+
+.logo-img {
+  display: block;
+  max-width: 75px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px; 
+  font-size: 22px; 
+  border: none;
+  border-radius: 5px;
+  background-color: #d8630f;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff8c42; 
+}
+
+
+.titulo {
+  display: block;
+  max-width: 100px;
+  height: auto;
+  float: left;
+  margin-right: 20px; 
+}
+
+header {
+  background-color: #ffa366;
+  border-bottom: 3px solid #d8630f;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.barra a {
+  text-decoration: none;
+}
+
+.barra button:hover {
+  transform: scale(1.1);
+}
+
+
+.barra button {
+  background-color: #d8630f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  text-align: right; 
+  margin-left: auto;
+}
+
+.barra button:hover {
+  transform: scale(1.1);
+}
+
+.titulo-grande {
+  font-size: 100px;
+}
+
+
+main {
+  margin-top: 100px;
+}
+
+.seccion {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.cajones button {
+  background-color: #ffa366;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cajones button:hover {
+  background-color: #d8630f;
+}
+
+.cajones {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-api {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 100px; 
+  margin: 100px; 
+}
+
+.boton-api img {
+  width: 300px; 
+  height: 300px;
+}
+
+
+.redes button {
+  background-color: transparent;
+  border: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.redes img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.redes button:hover img {
+  transform: scale(1.2);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.api-info {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  color: #d8630f;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.contact-title {
+  color: #333;
+  font-size: 50px;
+}

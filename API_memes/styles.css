@@ -1,0 +1,65 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    overflow: hidden;
+    background:#f9f3e9;
+    color: white;
+}
+
+#memeBtn{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 250ms;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin-left: 5%;
+    background: #d8630f;
+    color: black;
+}
+
+#memeBtn:hover {
+    transform: scale(1.2);
+  }
+
+
+  #memes {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+
+  #memes div {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    height: auto;
+    width: 250px;
+  }
+  #memes div h4 {
+    padding: 5px;
+    text-align: center;
+    background: none;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin: 0;
+  }
+  
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    transition: 200ms;
+  }
+  img:hover {
+    border-radius: 0px;
+    transform: scale(1.2);
+  }
